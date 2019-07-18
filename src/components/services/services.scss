@@ -1,0 +1,108 @@
+//3.services
+.services {
+	padding-top: 19rem;
+	padding-bottom: 3rem;
+
+	@media screen and (min-width: 768px) {
+		padding-top: 9rem;
+		padding-bottom: 16rem;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding-top: 15rem;
+		padding-bottom: 25rem;
+	}
+
+	&__top-wrap {
+		@media screen and (min-width: 768px) {
+			padding: 0 5rem;
+		}
+
+		@media screen and (min-width: 1200px) {
+			text-align: center;
+		}
+	}
+
+	&__heading {
+		font-size: 1.1rem;
+		color: $blue;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		@media screen and (min-width: 768px) {
+			font-size: 1.3rem;
+		}
+	}
+
+	&__title {
+		color: $dark;
+		font-size: 3rem;
+		font-weight: 700;
+		position: relative;
+		line-height: 1.2;
+
+		@media screen and (min-width: 768px) {
+			font-size: 4rem;
+			letter-spacing: -.1rem;
+		}
+
+		.dot {
+			vertical-align: sub;
+		}
+
+		span {
+			color: $blue;
+		}
+	}
+
+	&__desc {
+		margin-top: 1.5rem;
+		font-size: 1.4rem;
+		color: #8c969f;
+
+		@media screen and (min-width: 768px) {
+			text-align: center;
+			font-size: 1.8rem;
+		}
+
+		@media screen and (min-width: 1200px) {
+			font-size: 1.6rem;
+		}
+	}
+
+	&__item {
+		padding: 3rem 0 2rem;
+		border: 1rem solid transparent;
+		margin-right: -1.5rem;
+		margin-left: -1.5rem;
+
+		@media screen and (min-width: 768px) {
+			padding: 4rem 0;
+			margin: 0;
+		}
+
+		&:hover {
+			border: 1rem solid #eee;
+
+			p {
+				color: $blue;
+			}
+		}
+
+		img {
+			display: block;
+			margin: 0 auto 2rem;
+			max-width: 7.4rem;
+
+			@media screen and (min-width: 768px) {
+				margin: 0 auto 4rem;
+			}
+		}
+
+		p {
+			font-size: 1.8rem;
+			font-weight: 700;
+			text-align: center;
+		}
+	}
+}

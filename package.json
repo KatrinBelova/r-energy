@@ -1,0 +1,46 @@
+{
+  "name": "start-site",
+  "scripts": {
+    "start": "gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/runtime": "^7.2.0",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.18.13",
+    "cross-env": "^5.1.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-bro": "^1.0.3",
+    "gulp-csso": "^3.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-postcss": "^6.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-symbols": "^3.2.3",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-tinypng-nokey": "^1.1.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "^6.9.0",
+    "node-normalize-scss": "^8.0.0",
+    "node-sass": "^4.11.0",
+    "vinyl-buffer": "^1.0.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.2.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

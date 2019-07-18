@@ -24,8 +24,6 @@ $(document).ready(function(){
 		close.addClass('hidden');
 	})
 
-
-
 	// Submenu accordion
 	var allPanels = $('.has-submenu > .submenu');
 
@@ -60,9 +58,5 @@ $(document).ready(function(){
 			} else {
 				allPanels.hide();
 			}
-	}
-
-
-	)
-
+	})
 });
